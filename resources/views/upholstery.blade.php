@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villarubia Upholstery</title>
     <!-- Bootstrap 5 link -->
-    <link rel="stylesheet" href="../css/styleCSS.css">
+    <link rel="stylesheet" href="style/styleCSS.css">
     <!-- AOS Link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <style>
@@ -308,7 +308,7 @@
         </div>
       </div>
 </body>
-    <script src="../js/upholsteryBoots.js"></script>
+    <script src="style/styleJS.js"></script>
     <!-- <script src="MiddleWare/jquery.js"></script> -->
     <!-- <script src="MiddleWare/clientMW/client.js"></script> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
