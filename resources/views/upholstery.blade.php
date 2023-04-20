@@ -23,7 +23,7 @@
         }
     </style>
 </head>
-<body class="bg-upholstery-secondary vh-100">
+<body class="bg-upholstery-secondary">
     <div class="container">
 
     </div>

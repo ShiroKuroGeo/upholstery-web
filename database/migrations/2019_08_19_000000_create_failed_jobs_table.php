@@ -11,14 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('failed_jobs', function (Blueprint $table) {
-            $table->id();
-            $table->string('uuid')->unique();
-            $table->text('connection');
-            $table->text('queue');
-            $table->longText('payload');
-            $table->longText('exception');
-            $table->timestamp('failed_at')->useCurrent();
+        Schema::create('tbl_DeliveryPickup', function (Blueprint $table) {
+            $table->id();//ID sa pick ug pag deliver
+            $table->int('customerID');//Kinsay nagpaorder
+            $table->int('orderID');//Unsay giorder
+            $table->int('employeeId');//Kinsay driver
+            $table->int('addressId');//Asa padulngan
+            $table->timestamp('time');//Time nga ni lakaw
+            $table->timestamp('time');//Time pagbalik
+            $table->int('status');//Status done or not
         });
     }
 
